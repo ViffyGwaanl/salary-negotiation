@@ -1,3 +1,5 @@
+"use client";
+
 /**
  * GAINSNegotiationTool组件
  * 
