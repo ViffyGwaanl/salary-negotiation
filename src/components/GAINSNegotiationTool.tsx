@@ -391,9 +391,9 @@ const GAINSNegotiationTool = () => {
             >
               <div className="text-center">
                 <div className={`text-2xl font-bold ${
-                  activePhase === key ? `text-${phase.color}-600` : 'text-gray-600'
+                  activePhase === key ? `text-${phase.color}-600` : 'text-gray-800'
                 }`}>{key}</div>
-                <div className="text-xs mt-1">{phase.subtitle}</div>
+                <div className="text-xs mt-1 text-gray-800">{phase.subtitle}</div>
                 <div className="mt-2">
                   <div className="w-full bg-gray-300 rounded-full h-1">
                     <div 
@@ -453,11 +453,11 @@ const GAINSNegotiationTool = () => {
                       </div>
                       
                       <div className="mt-3">
-                        <label className="text-sm font-medium text-gray-700">你的笔记：</label>
+                        <label className="text-sm font-medium text-gray-800">你的笔记：</label>
                         <textarea
                           value={notes}
                           onChange={(e) => updateNotes(activePhase, task.id, e.target.value)}
-                          className="w-full mt-1 p-2 border rounded-lg text-sm"
+                          className="w-full mt-1 p-2 border rounded-lg text-sm text-gray-800 bg-white"
                           rows={3}
                           placeholder="记录你的想法、发现和行动计划..."
                         />
