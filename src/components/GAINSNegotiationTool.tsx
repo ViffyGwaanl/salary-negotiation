@@ -490,7 +490,7 @@ const GAINSNegotiationTool = () => {
         <div className="mt-6 bg-gradient-to-r from-purple-100 to-blue-100 rounded-lg p-4">
           <h3 className="font-semibold text-gray-800 mb-2">记住核心原则</h3>
           <p className="text-sm text-gray-700">
-            谈判不是魔法，而是方法。不要问"你能给我什么？"，而要展示"这是我如何解决你最紧迫的挑战并为你的业务创造新可能。"
+            谈判不是魔法，而是方法。不要问&quot;你能给我什么？&quot;，而要展示&quot;这是我如何解决你最紧迫的挑战并为你的业务创造新可能。&quot;
           </p>
         </div>
       </div>
